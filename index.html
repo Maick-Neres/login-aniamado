@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js" defer></script>
+  <title>Login</title>
+</head>
+<body>
+  <main>
+
+    <menu id="menu">
+      <div class="tittle">
+          <h1>Bem-vindo(a)</h1>
+      </div>
+    <div class="bnt">
+      <button id="button_login">Login</button>
+      <button id="button_sing">sing-up</button>
+    </div>
+    </menu>
+    <form action="#" method="post" autocomplete="off" id="form">
+        <h1>Login</h1>
+        <div class="inputs">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="inputs">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" required minlength="8" maxlength="30">
+        </div>
+      <div class="bnt-inputs">
+        <input type="submit" value="Entrar" id="submit">
+        <input type="reset" value="Cancelar" id="cancelar">
+      </div>
+    </form>
+  
+  </main>
+</body>
+</html>
